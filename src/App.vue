@@ -62,14 +62,6 @@ $break-medium: 768px;
 .page {
   width: inherit;
 }
-.router-animate-enter-active {
-  animation: enter 1s;
-  animation-delay: .6s;
-  opacity: 0;
-}
-.router-animate-leave-active {
-  animation: exit 1s;
-}
 @keyframes exit {
   from {
     transform: translateX(0);
